@@ -82,8 +82,4 @@ Open **http://localhost:3000** — the backend also serves the frontend, so this
 3. Set `CORS_ORIGIN` on the backend to the URL where the frontend is hosted.
 4. Deploy `frontend/` to any static host (Netlify, Vercel, GitHub Pages, ...).
 
-## Troubleshooting
 
-- **"Google Form is not configured"** — `.env` is missing or still has placeholder values.
-- **Email doesn't appear in responses** — double-check the `entry.` id, and that the form doesn't require sign-in or limit responses.
-- **CORS error in the browser** — when hosted separately, `CORS_ORIGIN` must exactly match the frontend's URL (no trailing slash).
